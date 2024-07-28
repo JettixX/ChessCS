@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\800px-Chess_Pieces_Sprite.png" />
+    <None Remove="Assets\bBishop.png" />
+    <None Remove="Assets\bg.png" />
+    <None Remove="Assets\bKing.png" />
+    <None Remove="Assets\bKnight.png" />
+    <None Remove="Assets\bPawn.png" />
+    <None Remove="Assets\bQueen.png" />
+    <None Remove="Assets\bRook.png" />
+    <None Remove="Assets\wBishop.png" />
+    <None Remove="Assets\wKing.png" />
+    <None Remove="Assets\wKnight.png" />
+    <None Remove="Assets\wPawn.png" />
+    <None Remove="Assets\wQueen.png" />
+    <None Remove="Assets\wRook.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\800px-Chess_Pieces_Sprite.png" />
+    <Resource Include="Assets\bBishop.png" />
+    <Resource Include="Assets\bg.png" />
+    <Resource Include="Assets\bKing.png" />
+    <Resource Include="Assets\bKnight.png" />
+    <Resource Include="Assets\bPawn.png" />
+    <Resource Include="Assets\bQueen.png" />
+    <Resource Include="Assets\bRook.png" />
+    <Resource Include="Assets\wBishop.png" />
+    <Resource Include="Assets\wKing.png" />
+    <Resource Include="Assets\wKnight.png" />
+    <Resource Include="Assets\wPawn.png" />
+    <Resource Include="Assets\wQueen.png" />
+    <Resource Include="Assets\wRook.png" />
+  </ItemGroup>
+
+</Project>
